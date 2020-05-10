@@ -11,4 +11,4 @@ headers = {
 response = requests.request("GET", url, headers=headers, data = payload)
 
 print(response.text.encode('utf8'))
-print('test')
+print('test from windows!')
