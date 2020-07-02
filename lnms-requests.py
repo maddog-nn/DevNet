@@ -3,10 +3,10 @@ import json
 import requests
 import xlsxwriter
 
-url = "https://ow-lnms01.int/api/v0/devices"
+url = "https://{{lnms_host}}/api/v0/devices"
 
 headers = {
-    "Authorization": "Bearer 88f275fbf13a65a95dc17ee7c400ff41",
+    "Authorization": "Bearer {{lnms_token}}",
     "cache-control": "no-cache",
     "Postman-Token": "92fcc6c3-0825-411a-95b0-ca1e67139161",
 }
